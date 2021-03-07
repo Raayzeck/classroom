@@ -1,64 +1,36 @@
 #include <stdio.h>
 
-main () {
+main()
+{
+    int mes;
+    scanf("%d", &mes);
+    switch(mes)
+    {
+        case 1: printf("January\n");
+            break;
+        case 2: printf("February\n");
+            break;
+        case 3: printf("March\n");
+            break;
+        case 4: printf("April\n");
+            break;
+        case 5: printf("May\n");
+            break;
+        case 6: printf("June\n");
+            break;
+        case 7: printf("July\n");
+            break;
+        case 8: printf("August\n");
+            break;
+        case 9: printf("September\n");
+            break;
+        case 10: printf("October\n");
+            break;
+        case 11: printf("November\n");
+            break;
+        case 12: printf("December\n");
+            break;
+    }
 
-    int a;
-    scanf("%d", &a);
-    if (a == 1){
-        printf("January\n");
-    }
-    else{
-    if (a == 2){
-        printf("February\n"); 
-    }
-    else{
-        if (a == 3){
-            printf("March\n");
-        }
-        else{
-        if (a == 4){
-            printf("April\n");
-        }
-        else{
-            if (a == 5){
-                printf("May\n");
-            }
-            else{
-            if (a == 6){
-                printf("June\n");
-            }
-            else{
-                if (a == 7){
-                    printf("July\n");
-                }
-                else{
-                if (a == 8){
-                    printf("August\n");
-                }
-                else{
-                    if (a == 9){
-                        printf("September\n");
-                    }
-                    else {
-                    if (a == 10){
-                        printf("October\n");
-                    }
-                    else{
-                        if (a == 11){
-                        printf("November\n");
-                        }
-                        else{
-                        printf("December\n");
-                        }
-                        }
-                    }
-                    }
-                }
-                }
-            }
-            }
-        }
-        }
-    }
     return 0;
 }
